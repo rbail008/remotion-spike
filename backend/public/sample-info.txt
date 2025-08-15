@@ -1,0 +1,11 @@
+Place your sample video file here as sample-source.mp4
+
+You can use any MP4 video file for testing. Some options:
+1. Download a free sample video from https://sample-videos.com/
+2. Use any local MP4 file you have
+3. Use a public video URL
+
+The frontend is configured to look for:
+http://localhost:4000/public/sample-source.mp4
+
+Simply rename your test video to "sample-source.mp4" and place it in this directory.
