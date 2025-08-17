@@ -1,0 +1,396 @@
+1
+00:00:00,000 --> 00:00:12,000
+We have main engine start, 4, 3, 2, 1, go!
+
+2
+00:00:23,000 --> 00:00:24,000
+You're a jerk, Tom!
+
+3
+00:00:24,000 --> 00:00:27,000
+Look Celia, we have to follow our passions.
+
+4
+00:00:27,000 --> 00:00:30,000
+You have your robotics and I just want to be awesome in space.
+
+5
+00:00:30,000 --> 00:00:34,000
+Why don't you just admit that you're freaked out by my robot hand?
+
+6
+00:00:34,000 --> 00:00:36,000
+I'm not freaked out, but it's...
+
+7
+00:00:37,000 --> 00:00:39,000
+Alright, fine. I'm freaked out.
+
+8
+00:00:39,000 --> 00:00:42,000
+I'm having nightmares that I'm being chased by these giant robotic claws.
+
+9
+00:00:42,000 --> 00:00:45,000
+Oh, what have I done? We're done!
+
+10
+00:00:50,000 --> 00:00:54,000
+Robot's memory synced and locked.
+
+11
+00:00:57,000 --> 00:01:02,000
+This is pretty freaky.
+
+12
+00:01:57,000 --> 00:01:59,000
+Shouldn't you be down there?
+
+13
+00:02:11,000 --> 00:02:13,000
+I heard you guys talking last night.
+
+14
+00:02:16,000 --> 00:02:18,000
+It's not my fault, you know?
+
+15
+00:02:27,000 --> 00:02:29,000
+It's not my fault.
+
+16
+00:02:57,000 --> 00:03:04,000
+Are you ready? Of course you're ready. You're a rock star.
+
+17
+00:03:06,000 --> 00:03:08,000
+How's it looking, Barley?
+
+18
+00:03:08,000 --> 00:03:10,000
+We should have about 10 minutes.
+
+19
+00:03:11,000 --> 00:03:13,000
+Well, that's perfect.
+
+20
+00:03:13,000 --> 00:03:16,000
+We're only one. All systems go!
+
+21
+00:03:16,000 --> 00:03:17,000
+Yeah, you.
+
+22
+00:03:17,000 --> 00:03:18,000
+We're only one.
+
+23
+00:03:18,000 --> 00:03:19,000
+We're only one.
+
+24
+00:03:19,000 --> 00:03:20,000
+We're only one.
+
+25
+00:03:20,000 --> 00:03:21,000
+We're only one.
+
+26
+00:03:21,000 --> 00:03:22,000
+We're only one.
+
+27
+00:03:22,000 --> 00:03:23,000
+We're only one.
+
+28
+00:03:23,000 --> 00:03:26,000
+We're only one. All systems go!
+
+29
+00:03:26,000 --> 00:03:28,000
+Yeah, you. Go! Go!
+
+30
+00:03:29,000 --> 00:03:32,000
+Move your asses! Go, go, go!
+
+31
+00:03:33,000 --> 00:03:34,000
+I love it!
+
+32
+00:03:34,000 --> 00:03:36,000
+Come on! Go!
+
+33
+00:03:42,000 --> 00:03:43,000
+That's nice.
+
+34
+00:03:44,000 --> 00:03:46,000
+Nothing to worry about. Tom...
+
+35
+00:03:50,000 --> 00:03:51,000
+Tom...
+
+36
+00:03:52,000 --> 00:03:53,000
+There she is.
+
+37
+00:03:53,000 --> 00:03:57,000
+Now, you love her.
+
+38
+00:03:57,000 --> 00:03:59,000
+She's your passion.
+
+39
+00:03:59,000 --> 00:04:01,000
+Be tender to her.
+
+40
+00:04:01,000 --> 00:04:03,000
+Be honest.
+
+41
+00:04:03,000 --> 00:04:05,000
+Be tender.
+
+42
+00:04:05,000 --> 00:04:08,000
+Remind her what love is.
+
+43
+00:04:21,000 --> 00:04:23,000
+I love you.
+
+44
+00:04:52,000 --> 00:04:56,000
+And... action!
+
+45
+00:04:56,000 --> 00:04:59,000
+Memory override in progress.
+
+46
+00:04:59,000 --> 00:05:01,000
+You're a jerk, Tom!
+
+47
+00:05:02,000 --> 00:05:03,000
+Oh, I'm sorry.
+
+48
+00:05:03,000 --> 00:05:05,000
+Sorry.
+
+49
+00:05:05,000 --> 00:05:06,000
+Sorry.
+
+50
+00:05:06,000 --> 00:05:08,000
+Look, Celia.
+
+51
+00:05:09,000 --> 00:05:12,000
+We have to follow our passions.
+
+52
+00:05:12,000 --> 00:05:14,000
+You have your robotics.
+
+53
+00:05:16,000 --> 00:05:19,000
+And I just want to be awesome in space.
+
+54
+00:05:37,000 --> 00:05:39,000
+Get her coming.
+
+55
+00:05:39,000 --> 00:05:40,000
+Two minutes left.
+
+56
+00:05:40,000 --> 00:05:41,000
+Two minutes.
+
+57
+00:05:41,000 --> 00:05:43,000
+Speed up, Tom!
+
+58
+00:05:43,000 --> 00:05:45,000
+Speed up, Celia!
+
+59
+00:05:46,000 --> 00:05:49,000
+Why don't you just admit that you're freaked out by my robot hand?
+
+60
+00:05:56,000 --> 00:05:57,000
+This is Celia.
+
+61
+00:05:57,000 --> 00:06:00,000
+I was young and a dick.
+
+62
+00:06:00,000 --> 00:06:02,000
+But there's no reason to destroy the world.
+
+63
+00:06:02,000 --> 00:06:04,000
+Why does she do this?
+
+64
+00:06:04,000 --> 00:06:06,000
+We already tried that one.
+
+65
+00:06:10,000 --> 00:06:11,000
+Come on!
+
+66
+00:06:11,000 --> 00:06:12,000
+Cut!
+
+67
+00:06:12,000 --> 00:06:13,000
+Whoa!
+
+68
+00:06:17,000 --> 00:06:18,000
+No!
+
+69
+00:06:18,000 --> 00:06:20,000
+No!
+
+70
+00:06:21,000 --> 00:06:23,000
+You broke my heart.
+
+71
+00:06:24,000 --> 00:06:25,000
+I know.
+
+72
+00:06:25,000 --> 00:06:27,000
+You forgot me on Earth.
+
+73
+00:06:27,000 --> 00:06:28,000
+I know.
+
+74
+00:06:28,000 --> 00:06:31,000
+I should just crush you.
+
+75
+00:06:31,000 --> 00:06:33,000
+Just crush you!
+
+76
+00:06:37,000 --> 00:06:38,000
+I'm...
+
+77
+00:06:47,000 --> 00:06:49,000
+I'm sorry.
+
+78
+00:06:50,000 --> 00:06:52,000
+Do that, Lip.
+
+79
+00:06:52,000 --> 00:06:54,000
+Not my fault!
+
+80
+00:06:55,000 --> 00:06:57,000
+This time.
+
+81
+00:07:02,000 --> 00:07:04,000
+Quiet on set.
+
+82
+00:07:04,000 --> 00:07:06,000
+Round of times, round of times!
+
+83
+00:07:07,000 --> 00:07:08,000
+No!
+
+84
+00:07:08,000 --> 00:07:10,000
+No!
+
+85
+00:07:10,000 --> 00:07:12,000
+You're a pain!
+
+86
+00:07:22,000 --> 00:07:24,000
+You're a pain!
+
+87
+00:07:52,000 --> 00:07:54,000
+No!
+
+88
+00:08:23,000 --> 00:08:26,000
+Emery overrated, 90%.
+
+89
+00:08:26,000 --> 00:08:29,000
+Captain, we have to abort!
+
+90
+00:08:39,000 --> 00:08:41,000
+The world's changed, Celia.
+
+91
+00:08:53,000 --> 00:08:55,000
+Maybe we can too.
+
+92
+00:08:56,000 --> 00:08:58,000
+Emery override complete!
+
+93
+00:09:17,000 --> 00:09:18,000
+You know...
+
+94
+00:09:22,000 --> 00:09:24,000
+There's a lesson to be learned from this.
+
+95
+00:09:26,000 --> 00:09:28,000
+Could have gone worse.
+
+96
+00:09:52,000 --> 00:09:54,000
+You're a pain!
+
+97
+00:10:52,000 --> 00:10:54,000
+To be continued...
+
+98
+00:11:22,000 --> 00:11:24,000
+To be continued...
+
+99
+00:11:52,000 --> 00:11:54,000
+To be continued...
+

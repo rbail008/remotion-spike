@@ -4,8 +4,8 @@ import path from "path";
 import fs from "fs";
 import crypto from "crypto";
 import { renderClipToFile } from "./render.js";
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -40,17 +40,27 @@ app.post("/api/render", async (req, res) => {
     const row: ClipRow = { id, status: "queued", plan };
     clips.set(id, row);
 
+    console.log(
+      `[render] queued id=${id} startMs=${plan?.startMs} durationMs=${
+        plan?.durationMs
+      } captions=${plan?.captions?.length ?? 0} captionsAreAbsolute=${
+        plan?.captionsAreAbsolute ?? false
+      }`
+    );
+
     (async () => {
       try {
         row.status = "rendering";
+        console.log(`[render] start   id=${id} -> ${outPath}`);
         await renderClipToFile(plan, outPath);
         row.status = "completed";
         row.filePath = outPath;
         row.url = `/media/${id}.mp4`;
+        console.log(`[render] done    id=${id} url=${row.url}`);
       } catch (e: any) {
         row.status = "failed";
         row.error = String(e?.message || e);
-        console.error("Render error:", e);
+        console.error(`[render] error   id=${id}`, e);
       }
     })();
 

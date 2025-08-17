@@ -6,9 +6,10 @@ const BACKEND = "http://localhost:4000";
 
 export default function App() {
   const [plan, setPlan] = useState<RenderPlan>({
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    startMs: 0,
-    durationMs: 10000,
+    videoUrl:
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    startMs: 25000,
+    durationMs: 30000,
     captions: [
       { text: "Hello!", startMs: 0, endMs: 2000 },
       { text: "This is a demo.", startMs: 2000, endMs: 5000 },
@@ -17,6 +18,7 @@ export default function App() {
     fps: 30,
     width: 1080,
     height: 1920,
+    showSubtitles: true,
   });
 
   const fps = plan.fps ?? 30;
@@ -89,18 +91,66 @@ export default function App() {
           }
           style={{ padding: 8, fontSize: 16 }}
         />
+        <label
+          style={{
+            display: "flex",
+            gap: 8,
+            alignItems: "center",
+            marginTop: 8,
+          }}
+        >
+          <input
+            type="checkbox"
+            checked={plan.showSubtitles !== false}
+            onChange={(e) =>
+              setPlan({ ...plan, showSubtitles: e.target.checked })
+            }
+          />
+          Show subtitles
+        </label>
+
+        <details style={{ marginTop: 8 }}>
+          <summary>Load captions from SRT (optional)</summary>
+          <input
+            type="file"
+            accept=".srt"
+            onChange={async (e) => {
+              const file = e.target.files?.[0];
+              if (!file) return;
+              const text = await file.text();
+              try {
+                const mod = await import("@remotion/captions");
+                const { captions } = mod.parseSrt({ input: text });
+                const normalized = captions.map((c: any) => ({
+                  text: c.text,
+                  startMs: c.startMs,
+                  endMs: c.endMs,
+                }));
+                setPlan({
+                  ...plan,
+                  captions: normalized,
+                  captionsAreAbsolute: true,
+                });
+              } catch (err) {
+                alert(
+                  "Failed to parse SRT: " + String((err as any)?.message || err)
+                );
+              }
+            }}
+          />
+        </details>
       </div>
 
-      <button 
-        onClick={startRender} 
-        style={{ 
-          padding: "12px 24px", 
+      <button
+        onClick={startRender}
+        style={{
+          padding: "12px 24px",
           fontSize: 18,
           backgroundColor: "#007bff",
           color: "white",
           border: "none",
           borderRadius: 4,
-          cursor: "pointer"
+          cursor: "pointer",
         }}
       >
         Render on Backend
@@ -111,7 +161,8 @@ export default function App() {
         {status?.status === "completed" && (
           <>
             {" "}
-            - <a
+            -{" "}
+            <a
               href={`${BACKEND}${status.url}`}
               target="_blank"
               rel="noreferrer"
@@ -124,7 +175,13 @@ export default function App() {
       </div>
 
       <h2>Preview (local, same props)</h2>
-      <div style={{ border: "1px solid #ccc", borderRadius: 8, overflow: "hidden" }}>
+      <div
+        style={{
+          border: "1px solid #ccc",
+          borderRadius: 8,
+          overflow: "hidden",
+        }}
+      >
         <Player
           component={Clip}
           inputProps={plan}

@@ -15,6 +15,7 @@ export const RemotionRoot: React.FC = () => (
       startMs: 0,
       durationMs: 30000,
       captions: [],
+      showSubtitles: true,
     }}
     calculateMetadata={async ({ props }) => {
       const fps = props.fps ?? 30;
